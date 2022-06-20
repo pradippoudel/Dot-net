@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\DescriptionController1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Auth\Index.cshtml" />
+    <Content Remove="Views\Auth\Samsung.cshtml" />
+    <Content Remove="wwwroot\img\Redmi Note 11 pro.jpg" />
+    <Content Remove="wwwroot\img\XAGE.jpg" />
+  </ItemGroup>
+
+</Project>
